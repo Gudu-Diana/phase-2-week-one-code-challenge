@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
 import TransactionList from './components/TransactionList';
 import TransactionForm from './components/TransactionForm';
 import SearchBar from './components/SearchBar';
+import './App.css';
 
 function App() {
   // State to manage transactions
